@@ -9,6 +9,8 @@ Canvas DevTools
   - import recording
 - live recording page
   - keep recording page, show # of frames being recorded
-- recording inspection page
-  -
+- recording inspection page:
+  - left panel: tree with frames > canvas commands
+  - center panel: with canvas preview
+  - right panel: canvas state
 
