@@ -1,0 +1,14 @@
+Canvas DevTools
+===============
+
+- page canvas selector
+  - every current or added canvas in a list with thumbnails
+- for a single selected canvas. Recording page.
+  - start a new recording
+  - open an old record
+  - import recording
+- live recording page
+  - keep recording page, show # of frames being recorded
+- recording inspection page
+  -
+
