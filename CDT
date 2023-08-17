@@ -1,6 +1,7 @@
 Canvas DevTools
 ===============
 
+- page with bradcrumbs
 - page canvas selector
   - every current or added canvas in a list with thumbnails
 - for a single selected canvas. Recording page.
@@ -11,6 +12,30 @@ Canvas DevTools
   - keep recording page, show # of frames being recorded
 - recording inspection page:
   - left panel: tree with frames > canvas commands
+    - every ctx. command, linked to the source code?
+    - highlight draw commands
+    - clicking on a command goes to that state, showing the state diff
   - center panel: with canvas preview
-  - right panel: canvas state
+    - set/unset background
+    - highlight current path
+    - grab pixel color
+    - timeline move that selects a command
+  - right panel: canvas state + command state
+    - canvas state
+      - list of canvas properties (fillStyle, etc)
+      - show canvas pattern
+      - show canvas path
+      - show current layer
+    - command state
+      - parameter values (src image?)
+
+
+TODO
+- basic extension support
+- detect all current + new HTML Canvas on a page
+- detect all current + new OffscreenCanvas on a page
+- detect all current + new OffscreenCanvas on a webworker
+- recording:
+  - state fetch: initial frame + state
+  - proxy-based CRC recording
 
